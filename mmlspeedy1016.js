@@ -32,6 +32,6 @@ window.initSpeedyBox = () => {
 				box_id: "1016",
 			});
 		});
-	}, 3000);
+	}, 1000);
 };
 window.initSpeedyBox();
