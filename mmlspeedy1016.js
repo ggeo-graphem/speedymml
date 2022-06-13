@@ -23,9 +23,9 @@ window.appendSpeedySrc = () => {
 
 window.initSpeedyBox = () => {
 	console.log("initSpeedyBox");
+	window.appendIntlTel();
+	window.appendSpeedySrc();
 	setTimeout(() => {
-		window.appendIntlTel();
-		window.appendSpeedySrc();
 		jQuery.noConflict();
 		jQuery(function () {
 			jQuery(".signup_1016").load("https://thespeedyapp.com/get-signup", {
@@ -34,8 +34,4 @@ window.initSpeedyBox = () => {
 		});
 	}, 3000);
 };
-  
-window.addEventListener('load', function() {
-  console.log("window loaded")
-  window.initSpeedyBox();
-});
+window.initSpeedyBox();
