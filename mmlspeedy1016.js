@@ -32,7 +32,7 @@ window.initSpeedyBox = () => {
 				box_id: "1016",
 			});
 		});
-	}, 10000);
+	}, 3000);
 };
   
 window.addEventListener('load', function() {
